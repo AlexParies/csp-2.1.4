@@ -1,5 +1,5 @@
 #   a214_simple_window1.py
-#   A program creates a window on your screen using Tkinter.
+#   A program creates a window on your screen using Tkinter
 import tkinter as tk
 
 # main window
