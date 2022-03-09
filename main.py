@@ -16,7 +16,8 @@ frame_login.grid(row=0, column=0, sticky="news")
 frameAuth = tk.Frame(root)
 frameAuth.grid(row=0, column=0, sticky="news")
 
-
+frameGridTest = tk.Frame(root)
+frameGridTest.grid(row=0,column=0,sticky="news")
 
 
 def button():
@@ -38,9 +39,15 @@ button = tk.Button(frame_login, text='Enter', command=button)
 button.pack()
 
 
+
 #frameAuth
 lblPassword = tk.Label(frameAuth, text='', font="Didot")
 lblPassword.pack()
+
+
+#grid tests
+
+
 
 #setup
 
